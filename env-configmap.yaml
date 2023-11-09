@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: ConfigMap
 data:
-  AWS_BUCKET:	my-116840594891-dev
+  AWS_BUCKET:	mys3-dev-150170199826
   AWS_PROFILE: default
   AWS_REGION: us-east-1
-  JWT_SECRET: dangdhh
+  JWT_SECRET: hoangdt
   POSTGRES_DB: postgres
-  POSTGRES_HOST: database.cyzcalovwmrd.us-east-1.rds.amazonaws.com
-  URL: http://af779a30f94084cb4ad1c324c3b02f6e-369821355.us-east-1.elb.amazonaws.com:8100  
+  POSTGRES_HOST: mypsql2023.c9pmxaoxlncc.us-east-1.rds.amazonaws.com
+  URL: "a10588a80aa8c46b1be696f6a8c7e01a-821198008.us-east-1.elb.amazonaws.com"  
 metadata:
   name: env-config
