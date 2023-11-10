@@ -1,12 +1,15 @@
 apiVersion: v1
 kind: ConfigMap
-data:
-  AWS_BUCKET:	mys3-dev-150170199826
-  AWS_PROFILE: default
-  AWS_REGION: us-east-1
-  JWT_SECRET: hoangdt
-  POSTGRES_DB: postgres
-  POSTGRES_HOST: mypsql2023.c9pmxaoxlncc.us-east-1.rds.amazonaws.com
-  URL: "a10588a80aa8c46b1be696f6a8c7e01a-821198008.us-east-1.elb.amazonaws.com"  
 metadata:
   name: env-config
+  namespace: default
+data:
+  POSTGRES_DB: testdb
+  POSTGRES_HOST: database-1.c4jrxhqcunyz.ap-southeast-1.rds.amazonaws.com
+  POSTGRES_USERNAME: postgres
+  POSTGRES_PASSWORD: abcde123456-
+  AWS_BUCKET:	mys3dev503025129776
+  AWS_PROFILE: default
+  AWS_REGION: ap-southeast-1
+  JWT_SECRET: hoangdt
+  URL: "http://localhost:8100"
